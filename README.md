@@ -1,3 +1,20 @@
+# 用途
+
+#### 它被用于自定义camtasia录像文件中的光标。
+
+1. 导出光标
+Export cursor
+```
+export-Tscm -path "C:\Users\he123\Desktop\trecRec\Rec 09-04-21.trec"
+export-png -path "C:\Users\he123\Desktop\trecRec\Rec 09-04-21.tscm"
+```
+2. 替换光标图片
+3. 打开`config.json`修改光标图片中的平面坐标系焦点
+4. 导入光标并生成新文件 （Import cursor and generate new file）
+
+```
+new-trec -trec 'C:\Users\he123\Desktop\trecRec\Rec 09-04-21.trec' -tscm 'C:\Users\he123\Desktop\trecRec\Rec 09-04-21.tscm'
+```
 # camtasia-trec   
 
 ## TREC2 box information   
